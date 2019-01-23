@@ -1,0 +1,18 @@
+<h1> All of our <%= @category.name %></h1>
+
+<div class="row">
+<% @products.each do |product| %>
+<div class="col-md-4">
+<div class="well center-it">
+<p></p>
+<h3></h3>
+<p></p>
+<p><a href='#' data-toggle="modal" data-target="#myModal_<%= product.id %>">
+            <span class='glyphicon glyphicon-plus'></span>More Info
+          </a>
+          </p>
+</div>
+</div>
+
+
+</div>
