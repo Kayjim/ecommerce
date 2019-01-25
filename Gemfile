@@ -14,6 +14,9 @@ gem 'cancancan'
 gem 'pry-rails'
 gem 'better_errors', group: :development
 gem 'binding_of_caller'
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
+gem 'figaro'
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.6', '>= 5.1.6.1'
